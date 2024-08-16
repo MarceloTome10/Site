@@ -1,0 +1,232 @@
+video {
+    position: absolute;
+    min-height: 89%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    margin-top: -8%;
+    object-fit: cover; 
+}
+.logo {
+    width: 15%; 
+    margin-top: 8%;
+    margin-left: 10%;
+    display: block;
+}
+
+.Botao-menu {
+    background-color: #eb4d42;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 15px 60px;
+}
+.Botoes{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: -5%;
+    padding-left: 5%;
+}
+.Botao-menu:hover{
+    background-color: white;
+    opacity: 0.8;
+    color:#eb4d42;
+    border: 1px solid #eb4d42;
+}
+.bot_prin{
+    color: #eb4d42;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 2%;
+
+}
+.frase{
+    width: 60%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10%;
+    color: #e8e3e3;
+    font-size: 50px;
+}
+  .content {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50%;
+  }
+.cor1{
+    background-color: #92fc9b;
+    width: 33%;
+    height: 150px;
+    margin-top: 11.5%;
+    float: right;
+}
+.cor2{
+    background-color: #fc9292;
+    width: 34%;
+    height: 150px;
+    margin-top: 11.5%;
+    float: right;    
+}
+.cor3{
+    background-color: #fcf292;
+    width: 33%;
+    height: 150px;
+    margin-top: 11.5%;
+}
+.info{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #1f1e1e;
+    margin-top: 5%;
+}
+#topico1 h3{
+    text-align: center;
+    color: #1f1e1e;
+    margin-left: 28%;
+    margin-top: 9%;
+    font-size: 40px;
+}
+#topico1 p{
+    text-align: left;
+    margin-left: 47%;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.top1{
+    margin-top: -16%;
+    width: 26%;
+    margin-left: 16%;
+    float:left;
+    box-shadow: -80px -60px 1px 0px #fcf292;
+}
+#topico2{
+    margin-top: 30%;
+}
+#topico2 h3{
+    text-align: center;
+    color: #1f1e1e;
+    margin-left: -43%;
+    margin-top: 9%;
+    font-size: 40px;
+}
+#topico2 p{
+    text-align: left;
+    margin-left: 17%;
+    margin-right: 45%;
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.top2{
+    margin-top: -10%;
+    width: 26%;
+    margin-right: 16%;
+    float:right;
+    box-shadow: 80px -60px 1px 0px #fc9292;
+}
+#topico3{
+    margin-top: 30%;
+}
+#topico3 h3{
+    text-align: center;
+    color: #1f1e1e;
+    margin-left: 33%;
+    margin-top: 9%;
+    font-size: 40px;
+}
+#topico3 p{
+    text-align: left;
+    margin-left: 47%;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.top3{
+    margin-top: -10%;
+    width: 26%;
+    margin-left: 16%;
+    float:left;
+    box-shadow: -80px -60px 1px 0px #92fc9b;
+}
+.topico {
+    opacity: 0; 
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 0.5s ease;
+}
+.topico.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+.Rodape {
+    background-image: url('../midia/rodape2.png');
+    color: white;
+    margin-top: 25%;
+    padding-left: 5%;
+}
+.rod{
+   padding-top: 5%;
+   padding-bottom: 2%;
+}
+.rod h3 {
+    font-size: 40px;
+    padding-bottom: 3%;
+}
+.rod p{
+   padding-bottom: 1%;
+   font-size: 22px;
+}
+.rod a {
+   text-decoration:none;
+   color: white;
+}
+.rod .redes{
+   padding-left: 8%;
+}
+.rod i{
+    padding-bottom: 7%;
+}
+@media (max-width: 768px) {
+    .video{
+        width: 80%;
+    }
+    .logo {
+        width: 50%;
+        margin-left: 40%;
+    }
+    .Botoes {
+        flex-direction: column;
+    }
+
+    .Botao-menu,
+    .bot_prin {
+        font-size: 18px;
+        width: 30%;
+        text-align: center;
+        margin-left: -3%;
+    }
+    .frase{
+        font-size: 35px;
+    }
+    .top1{
+        margin-top: -100%;
+    }
+    .top2, .top3{
+        margin-top: -70%;
+    }
+
+}

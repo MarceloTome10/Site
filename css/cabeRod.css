@@ -1,0 +1,92 @@
+.cbc {
+    background-color: #211c1b;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 10%;
+    display: block;
+}
+
+.Botoes {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.Botao-menu {
+    background-color: #eb4d42;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 15px 50px;
+}
+
+.Botao-menu:hover {
+    background-color: white;
+    opacity: 0.8;
+    color: #eb4d42;
+    border: 1px solid #eb4d42;
+}
+
+.bot_prin {
+    color: #eb4d42;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 25px 50px;
+}
+.Rodape {
+    background-image: url('../midia/rodape2.png');
+    color: white;
+    margin-top: 25%;
+    padding-left: 5%;
+}
+.rod{
+   padding-top: 5%;
+   padding-bottom: 2%;
+}
+.rod h3 {
+    font-size: 40px;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+.rod p{
+   padding-bottom: 1%;
+   font-size: 22px;
+}
+.rod a {
+   text-decoration:none;
+   color: white;
+}
+.rod .redes{
+   padding-left: 8%;
+}
+.rod i{
+    padding-bottom: 7%;
+}
+@media (max-width: 768px) {
+    .logo {
+        width: 50%;
+        margin-left: 40%;
+    }
+    .Botoes {
+        flex-direction: column;
+    }
+
+    .Botao-menu,
+    .bot_prin {
+        font-size: 18px;
+        width: 30%;
+        text-align: center;
+        margin-left: -3%;
+    }
+}
